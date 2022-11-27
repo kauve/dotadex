@@ -1,0 +1,130 @@
+.nav-video {
+  position: relative;
+  z-index: -2;
+}
+
+.nav-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-video video {
+  width: 100%;
+  opacity: 0.5;
+  height: 100vh;
+  object-fit: cover !important;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20px;
+}
+
+.logo {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.nav-container h1 {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  padding: 0;
+  left: 0;
+}
+.nav-text-container h1 {
+  padding: 0;
+}
+
+.dotadex {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: end;
+
+  color: #ffffff !important;
+  letter-spacing: 5px;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+}
+
+.by {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px !important;
+  margin: 0px 10px 0px 10px;
+  color: #fff !important;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+}
+
+.nav-container h1 {
+  font-size: 30px;
+  max-width: 700px;
+}
+
+.imgLogo:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.imgLogo {
+  display: inline-block;
+  transition: all ease-in-out 300ms;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+}
+
+.button-container {
+  width: 300px;
+}
+
+.button-nav {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.upButton {
+  position: fixed;
+  border-radius: 50%;
+  text-align: center;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a4230d;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.upButton:hover {
+  transform: scale(1.1);
+  background-color: #a4230d;
+}

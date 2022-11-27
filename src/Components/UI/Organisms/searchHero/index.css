@@ -1,0 +1,55 @@
+.main-searchHero {
+  max-height: 100vh;
+  height: 10000px;
+  background: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/dpc.jpg);
+  background-size: cover;
+}
+
+.cards-container::-webkit-scrollbar {
+
+  width: 6px;
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+  background: #a4230d;
+  border-radius: 5px;
+}
+
+.cards-container::-webkit-scrollbar:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cards-container::-webkit-scrollbar:horizontal {
+  display: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  max-height: 700px;
+  max-width: 1024px;
+  margin: auto;
+  overflow-y: scroll;
+  width: 90%;
+  padding: 5px 0px;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(0px 0px 20px rgba(164, 35, 13, 0.2));
+}
+.heroStats-container-main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.heroStats-container-main-none {
+  display: none;
+}

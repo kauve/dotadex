@@ -1,0 +1,12 @@
+h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0px;
+  padding: 40px;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+}

@@ -1,0 +1,28 @@
+.buttonHD {
+  background-color: #a4230d;
+  padding: 1px 80px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 100%));
+  letter-spacing: 3px;
+  display: inline-block;
+  transition: all ease-in-out 300ms;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.buttonHD:hover {
+  transform: scale(1.1);
+  background-color: #a4230d;
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
